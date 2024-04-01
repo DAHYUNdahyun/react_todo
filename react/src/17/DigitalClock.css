@@ -1,0 +1,26 @@
+body{
+  background-image: url('../assets/fighting.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  /* optional */
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+.clock-container{
+  backdrop-filter: blur(5px);
+  width: 100vw;
+  padding: 10px 0;
+}
+.clock{
+  color: rgb(138, 150, 127);
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  text-shadow: 3px 3px 5px hsla(0, 7%, 57%, 0.75);
+}
